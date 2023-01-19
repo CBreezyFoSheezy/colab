@@ -4,11 +4,6 @@ namespace SpriteKind {
 controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
     hook.throwDart()
 })
-// memory game
-//  - this one is going to be hard
-// "flappy bird"
-// - create obstacles that have an "overlap" event varying in height.  Use of images might be necessary instead of just sprites.
-//  - only one button will do anything (space bar or A) and it will make the bird flap or fly.
 let hook: Dart = null
 scene.setBackgroundImage(img`
     5555555555555555555999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
